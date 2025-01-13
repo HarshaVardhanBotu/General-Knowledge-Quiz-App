@@ -1,45 +1,46 @@
-# General-Knowledge-Quiz-App
-A simple yet interactive General Knowledge Quiz Application built using HTML, CSS, and JavaScript. The app features a timer, dynamic question rendering, and real-time scoring. The design is responsive and user-friendly, offering a seamless experience for testing and improving general knowledge. Perfect for practice and casual learning!
+A simple yet interactive **General Knowledge Quiz Application** built using HTML, CSS, and JavaScript. The app features a timer, dynamic question rendering, and real-time scoring. The design is responsive and user-friendly, offering a seamless experience for testing and improving general knowledge. Perfect for practice and casual learning!
 
-#Key Features
+---
 
-Start Quiz Button:
-A button to initiate the quiz, revealing the questions and the timer.
+## 🔑 Key Features
 
-Question Display:
-Each question is displayed one at a time with four options.
-Radio buttons enable users to select their answers.
+- **Start Quiz Button:** A button to initiate the quiz, revealing the questions and the timer.
+- **Question Display:** Each question is displayed one at a time with four options. Radio buttons enable users to select their answers.
+- **Navigation Buttons:** 
+  - "Next" button for progressing through the quiz.  
+  - "Submit" button for ending the quiz on the last question.
+- **Timer:** A countdown timer starts at 100 seconds and ends the quiz automatically if it reaches zero.
+- **Score Calculation:** Correct answers are tallied, and the final score is displayed upon quiz completion.
+- **Randomized Questions:** The questions are shuffled to ensure variety in each playthrough.
 
-Navigation Buttons:
-"Next" button for progressing through the quiz.
-"Submit" button for ending the quiz on the last question.
+---
 
-Timer:
-A countdown timer starts at 100 seconds and ends the quiz automatically if it reaches zero.
+## 🛠 Technology Stack
 
-Score Calculation:
-Correct answers are tallied, and the final score is displayed upon quiz completion.
+- **HTML:** For structuring the quiz layout.  
+- **CSS:** For styling and creating a visually appealing interface.  
+- **JavaScript:** For handling quiz logic, timer functionality, and dynamic content updates.  
 
-Randomized Questions:
-The questions are shuffled to ensure variety in each playthrough.
+---
 
-Technology Stack
-HTML: For structuring the quiz layout.
-CSS: For styling and creating a visually appealing interface.
-JavaScript: For handling quiz logic, timer functionality, and dynamic content updates.
+## 🚀 How It Works
 
-#How It Works
+1. **Initialization:**  
+   The "Start Quiz" button triggers the display of the quiz and begins the timer.
 
-Initialization:
-The "Start Quiz" button triggers the display of the quiz and begins the timer.
+2. **Quiz Interaction:**  
+   - Users select answers and navigate through questions using the "Next" button.  
+   - The "Submit" button becomes visible on the last question.
 
-Quiz Interaction:
-Users select answers and navigate through questions using the "Next" button.
-The "Submit" button becomes visible on the last question.
+3. **Timer Functionality:**  
+   The countdown timer displays the remaining time. If the timer reaches zero, the quiz ends automatically, and the score is displayed.
 
-Timer Functionality:
-The countdown timer displays the remaining time.
-If the timer reaches zero, the quiz ends automatically, and the score is displayed.
+4. **Result Display:**  
+   Upon clicking "Submit" or if the timer expires, the score and total questions are shown to the user.
 
-Result Display:
-Upon clicking "Submit" or if the timer expires, the score and total questions are shown to the user.
+---
+
+### 🎯 Try It Out!
+
+- Test your general knowledge in a fun, engaging way with this quiz application.  
+- Perfect for casual learning or competitive practice sessions.  
