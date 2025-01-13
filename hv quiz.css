@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #2980b9, #9eddf4);
+    /*linear-gradient original colors blue to white  #2980b9, #9eddf4 , these are also good #e303f7, #ffffff, #3300ff*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#quizPlayPortion {
+    display: none;
+}
+
+.quiz-container {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#timer {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #e74c3c;
+}
+
+button {
+    padding: 12px 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background: #27ae60;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#submit,
+#next {
+    /* display: block; this will be good with a predifined block style but here not needed*/
+    margin: 20px auto;
+}
+
+button:hover {
+    background: #2ecc71;
+}
+
+label {
+    display: block;
+    /* previosly block */
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+label input {
+    margin-right: 10px;
+    /* for space between radio buttons and the option name */
+    vertical-align: middle;
+}
