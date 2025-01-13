@@ -42,5 +42,4 @@ A simple yet interactive **General Knowledge Quiz Application** built using HTML
 
 ### 🎯 Try It Out!
 
-- Test your general knowledge in a fun, engaging way with this quiz application.  
-- Perfect for casual learning or competitive practice sessions.  
+- Test your general knowledge in a fun, engaging way with this quiz application.
